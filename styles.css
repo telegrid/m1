@@ -1,0 +1,22 @@
+body {
+    background-color:#000000;
+}
+black {
+    background-color:#000000;
+}
+p, p:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #666666;
+    text-decoration: none;
+}
+.link {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #666666;
+}
